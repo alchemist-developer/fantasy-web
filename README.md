@@ -1,8 +1,9 @@
  # <a href="https://www.fantasymmo.online">Fantasy Online</a> • Responsive Landing Page • UI
 
 <table>
-<td><img src="https://user-images.githubusercontent.com/88943961/192693615-c26c2216-65a9-4189-ac03-b5267207b1e4.png"/></td>
+<td><img src="https://user-images.githubusercontent.com/88943961/192717225-61b2de23-f9a3-4c37-820f-f49aa8cb2a8e.png"/></td>
 </table>
+
 
 ## About:
 Landing page type site to promote the game Fantasy Online, MMO. <br/>
