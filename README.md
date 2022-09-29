@@ -1,8 +1,8 @@
  # <a href="https://www.fantasymmo.online">Fantasy Online</a> • Responsive Landing Page • UI
 
 <table>
-<tr>V1.<img src="https://user-images.githubusercontent.com/88943961/192717225-61b2de23-f9a3-4c37-820f-f49aa8cb2a8e.png"/></tr>
-<tr>V2.<img src="https://user-images.githubusercontent.com/88943961/192907276-9c3f6630-e1a8-47de-b131-1dad7e2e303f.png"/></tr>
+<tr>V0.1<img src="https://user-images.githubusercontent.com/88943961/192717225-61b2de23-f9a3-4c37-820f-f49aa8cb2a8e.png"/></tr>
+<tr>V1.0<img src="https://user-images.githubusercontent.com/88943961/192907276-9c3f6630-e1a8-47de-b131-1dad7e2e303f.png"/></tr>
 </table>
 
 ## About:
