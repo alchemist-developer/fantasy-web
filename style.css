@@ -26,10 +26,14 @@ a {
     color: var(--tertiary-color);
 }
 
+div a span {
+    color: var(--quinary-color);
+    transition: 0.5s;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: spactransformei grid para displayflexe-around;
     align-items: center;
     height: 100%;
     gap: 20px;
@@ -49,7 +53,7 @@ a {
 }
 
 .container img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(50%);
 }
 
 .action {
@@ -68,7 +72,7 @@ a {
 
 .action:hover {
     background-color: transparent;
-    color: var(--tertiary-color);
+    color: var(--quinary-color);
 }
 
 .footer__text, .footer__text a {
@@ -96,7 +100,7 @@ footer {
 @media (max-width:768px) {
 
     .action {
-        width: 50%;	
+        width: 50%;
         height: 70px;
         font-size: 1.1rem;
     }
@@ -104,17 +108,29 @@ footer {
     .container img {
         width: 60%;
     }
+
+    div a span {
+        font-size: 0.8rem;
+    }
 }
 
-.floating {   
-    animation-name: floating; 
-    animation-duration: 3s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: ease-in-out; 
-} 
-  
-@keyframes floating { 
-    0% { transform: translate(0,  0px); } 
-    50%  { transform: translate(0, 5px); } 
-    100%   { transform: translate(0, 0px); }     
-} 
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 5px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
