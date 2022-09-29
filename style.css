@@ -17,7 +17,7 @@
 body {
     height: 100vh;
     font-family: 'Righteous', cursive;
-    background-image: url(img/bg.jpeg);
+    background-image: url(/assets/static/img/bg.jpeg);
     background-size: cover;
 }
 
