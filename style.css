@@ -28,11 +28,19 @@ a {
 
 a img {
     width: 100% !important;
-    height: 50% !important;
+    height: 66% !important;
 }
+
 
 .external__link {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    a img {
+        width: 100% !important;
+        height: 60% !important;
+    }
 }
 
 .container {
@@ -51,12 +59,12 @@ a img {
     align-items: center;
 }
 
-.container img {
+.container .floating {
     width: 30%;
     transition: 1.5s;
 }
 
-.container img:hover {
+.container .floating:hover {
     filter: grayscale(50%);
 }
 
