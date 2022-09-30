@@ -27,8 +27,12 @@ a {
 }
 
 div a span {
-    color: var(--quinary-color);
+    color: #ffc000;
+    font-family: 'Righteous', cursive;
     transition: 0.5s;
+    -webkit-text-stroke: 1px var(--tertiary-color);
+    font-weight: 500;
+    font-size: 21px;
 }
 
 .container {
