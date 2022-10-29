@@ -109,7 +109,7 @@ footer {
 
 /* TABLET */
 
-@media (max-width:768px) {
+@media (max-width: 900px) {
 
     .action {
         width: 50%;
@@ -117,12 +117,14 @@ footer {
         font-size: 1.1rem;
     }
 
-    .container img {
+    .container .floating {
         width: 60%;
     }
 
-    div a span {
-        font-size: 0.8rem;
+    div.external__link a img {
+        width: 500px !important;
+        max-width: 90vw;
+        height: 90px !important;
     }
 }
 
